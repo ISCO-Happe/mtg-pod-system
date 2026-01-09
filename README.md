@@ -289,3 +289,5 @@ For issues, questions, or feature requests:
 ---
 
 **MTG Pod Randomizer** - Making pod assignments simple and fair for every game night!
+
+-- Zarrotox
