@@ -1,0 +1,131 @@
+{
+  "history": [
+    {
+      "timestamp": "2026-01-09T15:14:55.753394",
+      "pods": [
+        {
+          "id": 1,
+          "players": [
+            "Chris",
+            "Andy",
+            "Tristan",
+            "Justin",
+            "Cody",
+            "Austin",
+            "Cody D"
+          ],
+          "size": 7
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-01-09T15:15:33.388734",
+      "pods": [
+        {
+          "id": 1,
+          "players": [
+            "Cody",
+            "Hash Slinging Slasher",
+            "Chris",
+            "Justin",
+            "Cody D",
+            "Andy",
+            "Austin",
+            "Tristan"
+          ],
+          "size": 8
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-01-09T15:15:42.805139",
+      "pods": [
+        {
+          "id": 1,
+          "players": [
+            "Cody",
+            "Tristan",
+            "Justin",
+            "Austin",
+            "Hash Slinging Slasher",
+            "Cody D",
+            "Chris",
+            "Andy"
+          ],
+          "size": 8
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-01-09T15:15:45.152522",
+      "pods": [
+        {
+          "id": 1,
+          "players": [
+            "Austin",
+            "Tristan",
+            "Cody",
+            "Justin",
+            "Chris",
+            "Cody D",
+            "Andy",
+            "Hash Slinging Slasher"
+          ],
+          "size": 8
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-01-09T15:16:56.554887",
+      "pods": [
+        {
+          "id": 1,
+          "players": [
+            "Cody D",
+            "Chris",
+            "Tristan",
+            "Andy"
+          ],
+          "size": 4
+        },
+        {
+          "id": 2,
+          "players": [
+            "Cody",
+            "Justin",
+            "Austin",
+            "Hash Slinging Slasher"
+          ],
+          "size": 4
+        }
+      ]
+    },
+    {
+      "timestamp": "2026-01-09T15:17:23.285778",
+      "pods": [
+        {
+          "id": 1,
+          "players": [
+            "Cody",
+            "Justin",
+            "Cody D",
+            "Hash Slinging Slasher"
+          ],
+          "size": 4
+        },
+        {
+          "id": 2,
+          "players": [
+            "Austin",
+            "Tristan",
+            "Chris",
+            "Andy"
+          ],
+          "size": 4
+        }
+      ]
+    }
+  ],
+  "count": 6,
+  "last_saved": "2026-01-09T15:17:23.286328"
+}

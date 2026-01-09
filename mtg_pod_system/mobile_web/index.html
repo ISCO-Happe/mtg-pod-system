@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG Pod Randomizer</title>
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#16213e">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>MTG Pod Randomizer</h1>
+            <div class="subtitle">Player Pod Management</div>
+        </header>
+
+        <main>
+            <!-- Player Management Section -->
+            <section id="players-section" class="section">
+                <h2>Players</h2>
+                <div class="player-input">
+                    <input type="text" id="player-name" placeholder="Enter player name">
+                    <button id="add-player-btn">Add Player</button>
+                </div>
+                <div class="bulk-input">
+                    <textarea id="bulk-players" placeholder="Enter multiple players (one per line)"></textarea>
+                    <button id="bulk-add-btn">Add Multiple</button>
+                </div>
+                <div class="player-list">
+                    <h3>Current Players (<span id="player-count">0</span>)</h3>
+                    <div id="players-container"></div>
+                </div>
+            </section>
+
+            <!-- Pod Configuration Section -->
+            <section id="config-section" class="section">
+                <h2>Pod Configuration</h2>
+                <div class="config-controls">
+                    <label>
+                        Target Pod Size:
+                        <input type="number" id="target-size" min="3" max="8" value="4">
+                    </label>
+                    <label>
+                        Maximum Pod Size:
+                        <input type="number" id="max-size" min="4" max="8" value="8">
+                    </label>
+                </div>
+            </section>
+
+            <!-- Randomization Section -->
+            <section id="randomize-section" class="section">
+                <h2>Create Pods</h2>
+                <button id="randomize-btn" class="primary-btn">Randomize Players</button>
+            </section>
+
+            <!-- Results Section -->
+            <section id="results-section" class="section hidden">
+                <h2>Pod Assignments</h2>
+                <div id="pods-container"></div>
+                <div class="results-stats">
+                    <div id="stats-info"></div>
+                    <button id="save-history-btn">Save to History</button>
+                    <button id="re-randomize-btn">Randomize Again</button>
+                </div>
+            </section>
+
+            <!-- History Section -->
+            <section id="history-section" class="section">
+                <h2>History</h2>
+                <div id="history-container">
+                    <p class="no-history">No history available</p>
+                </div>
+            </section>
+
+            <!-- Data Management Section -->
+            <section id="data-section" class="section">
+                <h2>Data Management</h2>
+                <div class="data-controls">
+                    <button id="export-btn">Export Data</button>
+                    <button id="import-btn">Import Data</button>
+                    <input type="file" id="import-file" accept=".json" style="display: none;">
+                    <button id="clear-all-btn" class="danger-btn">Clear All Data</button>
+                </div>
+            </section>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Processing...</p>
+        </div>
+
+        <!-- Toast Notifications -->
+        <div id="toast" class="toast hidden">
+            <span id="toast-message"></span>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

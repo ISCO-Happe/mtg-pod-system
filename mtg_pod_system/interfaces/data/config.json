@@ -1,0 +1,9 @@
+{
+  "default_pod_size": 4,
+  "max_pod_size": 4,
+  "min_pod_size": 3,
+  "auto_save": true,
+  "keep_history": true,
+  "max_history_items": 50,
+  "last_saved": "2026-01-09T15:16:50.203700"
+}
